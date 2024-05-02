@@ -1,6 +1,6 @@
 manifestVersion: 1.1
 id: sparkles-torrserver
-category: automation
+category: Video streaming
 name: TorrServer MATRIX
 version: "132"
 icon: https://imgur.com/MZQKw3B.png
@@ -20,7 +20,7 @@ developer: YouROK
 website: https://yourok.ru
 repo: ""
 support: https://t.me/TorrServe
-port: 9910
+port: 8090
 gallery:
   - 1.png
   - 2.png
