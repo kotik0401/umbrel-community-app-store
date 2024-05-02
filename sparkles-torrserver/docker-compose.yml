@@ -1,0 +1,26 @@
+version: '3.6'
+services:
+  torrserver:
+    container_name: torrserver
+    image: yourok/torrserver
+    restart: always
+    environment:
+      - TS_PORT=8090
+      - TS_PATH=/opt/torrserver/config
+      - TS_LOGPATHDIR=/opt/torrserver/log
+      - TS_LOGFILE=ts.log
+      - TS_WEBLOGFILE=tsweb.log
+      - TS_RDB=false
+      - TS_HTTPAUTH=true
+      - TS_DONTKILL=true
+      - TS_TORRENTSDIR=/opt/torrserver/torrents
+      - TS_TORRENTADDR=:32000
+      - TS_PUBIPV4=publicIP
+      - TS_PUBIPV6=publicIP
+      - TS_SEARCHWA=true
+    ports:
+      - 8090:8090
+    volumes:
+      - ./torrserver/config:/opt/torrserver/config
+      - ./torrserver/log:/opt/torrserver/log
+      - ./torrserver/torrents:/opt/torrserver/torrents
