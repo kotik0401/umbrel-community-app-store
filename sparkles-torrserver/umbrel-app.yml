@@ -7,10 +7,8 @@ icon: https://imgur.com/MZQKw3B.png
 tagline: Watching online movies using a torrent client
 description: >-
   TorrServer Matrix is ​​an innovative application designed to manage and stream media files using the BitTorrent protocol. This powerful software provides access to a huge amount of content through a user-friendly and intuitive user interface.
-
-With TorrServer Matrix, you can create your own server to stream movies, music, TV shows, books and other media files while maintaining privacy and bypassing content access restrictions. It offers a wide range of features, including the ability to customize video and audio quality, as well as support for subtitles.
-
-TorrServer Matrix is ​​highly customizable and has an easy-to-use interface, making it an ideal choice for those looking to create their own streaming service or simply enhance their home media center. Thanks to its open architecture, it also supports integration with other applications and services, allowing you to expand its functionality to suit your needs.
+  With TorrServer Matrix, you can create your own server to stream movies, music, TV shows, books and other media files while maintaining privacy and bypassing content access restrictions. It offers a wide range of features, including the ability to customize video and audio quality, as well as support for subtitles.
+  TorrServer Matrix is ​​highly customizable and has an easy-to-use interface, making it an ideal choice for those looking to create their own streaming service or simply enhance their home media center. Thanks to its open architecture, it also supports integration with other applications and services, allowing you to expand its functionality to suit your needs.
 
 releaseNotes: >-
   Init Yucca on Umbrel
