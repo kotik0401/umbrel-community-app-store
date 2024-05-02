@@ -1,7 +1,7 @@
 manifestVersion: 1.1
 id: sparkles-torrserver
 category: Video streaming
-name: TorrServer MATRIX
+name: TorrServer Matrix
 version: "132"
 icon: https://imgur.com/MZQKw3B.png
 tagline: Watching online movies using a torrent client
