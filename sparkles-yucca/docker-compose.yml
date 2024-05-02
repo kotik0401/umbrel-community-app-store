@@ -1,0 +1,24 @@
+version: "3.8"
+
+networks:
+  yucca_network:
+
+volumes:
+  yucca_data:
+  yucca_ffmpeg:
+
+services:
+  yucca:
+    image: yuccastream/yucca:latest
+    restart: always
+    volumes:
+      - "yucca_data:/opt/yucca/data"
+      - "yucca_ffmpeg:/opt/yucca/ffmpeg"
+    networks:
+      - yucca_network
+    ports:
+      - 9910:9910 # Web UI
+      - 9911:9911 # Pprof
+      - 9912:9912 # Telemetry
+      - 1025:1025 # SMTP server
+

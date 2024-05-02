@@ -1,0 +1,27 @@
+manifestVersion: 1.1
+id: sparkles-yucca
+category: automation
+name: Yucca
+version: "0.10.0"
+icon: https://imgur.com/s5n5y1y.jpg
+tagline: Simple NVR solution video surveillance
+description: >-
+  Simple NVR solution video surveillance for home and business.  
+  Perfect for both a solution for safe cities with thousands of cameras and launching a subscriber service, as well as for home use self-hosted.
+
+releaseNotes: >-
+  Init Yucca on Umbrel
+
+  Full release notes are available at https://docs.yucca.app/en/release_notes/0.10.0/
+developer:  Yucca Stream
+website: https://yucca.app/
+repo: ""
+support: https://docs.yucca.app/en/support/
+port: 9910
+gallery:
+  - https://imgur.com/3bDM7T8.png
+  - https://imgur.com/70USu1Y.png
+  - https://imgur.com/Ys7OtbI.png
+path: ""
+deterministicPassword: false
+dependencies: []
