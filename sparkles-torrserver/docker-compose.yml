@@ -11,7 +11,7 @@ services:
       - TS_LOGFILE=ts.log
       - TS_WEBLOGFILE=tsweb.log
       - TS_RDB=false
-      - TS_HTTPAUTH=true
+      - TS_HTTPAUTH=false
       - TS_DONTKILL=true
       - TS_TORRENTSDIR=/opt/torrserver/torrents
       - TS_TORRENTADDR=:32000
