@@ -3,7 +3,7 @@ services:
   torrserver:
     container_name: torrserver
     image: yourok/torrserver
-    restart: unless-stopped
+    restart: always
     environment:
       - TS_PORT=8090
       - TS_PATH=/opt/torrserver/config
