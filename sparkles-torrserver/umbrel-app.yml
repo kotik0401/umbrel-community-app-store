@@ -11,7 +11,7 @@ description: >-
   TorrServer Matrix is ​​highly customizable and has an easy-to-use interface, making it an ideal choice for those looking to create their own streaming service or simply enhance their home media center. Thanks to its open architecture, it also supports integration with other applications and services, allowing you to expand its functionality to suit your needs.
 
 releaseNotes: >-
-  Init Yucca on Umbrel
+  Init TorrServer on Umbrel
 
   Full release notes are available at https://github.com/YouROK/TorrServer/releases/tag/MatriX.132
 developer: YouROK
